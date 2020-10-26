@@ -1,0 +1,35 @@
+.roundedPanel {
+  width: 94%;
+  margin: 1% 2.5%;
+  border: 1px solid #cacaca;
+  border-radius: 8px;
+  box-shadow: 3px 10px 10px -10px #ccc;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dadada;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.heading {
+  background-color: #f3f3f3;
+  color: teal;
+  text-transform: uppercase;
+}
+
+.businessName {
+  font-weight: 600;
+  color: #333;
+}
+.address {
+  font-size: 0.75em;
+  color: #999;
+}
