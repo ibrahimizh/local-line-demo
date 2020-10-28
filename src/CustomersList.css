@@ -8,9 +8,24 @@
 
 .row {
   display: flex;
-  flex-direction: column;
   border-bottom: 1px solid #dadada;
   padding: 10px;
+  height: 50px;
+}
+
+.customerColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 95%;
+  margin: auto;
+}
+.viewColumn {
+  flex: 3%;
+  margin: auto;
+}
+.deleteColumn {
+  flex: 2%;
+  margin: auto;
 }
 
 .footer {
@@ -21,15 +36,35 @@
 
 .heading {
   background-color: #f3f3f3;
-  color: teal;
+  color: #69c19a;
   text-transform: uppercase;
 }
 
 .businessName {
   font-weight: 600;
-  color: #333;
+  color: #777;
 }
 .address {
-  font-size: 0.75em;
-  color: #999;
+  font-size: 0.85em;
+  color: #bbb;
+}
+
+.buttonView {
+  background-color: #41b380;
+  color: #fff;
+  border: 2px solid #558d74;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 5px;
+}
+
+.buttonDelete {
+  background-color: #aaa;
+  color: #fff;
+  margin: 5px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.05em;
+  padding: 2px 7px;
 }

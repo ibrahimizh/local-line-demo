@@ -3,7 +3,10 @@ import CustomersList from './CustomersList'
 
 function App() {
   return (
-    <CustomersList />
+    <>
+      <CustomersList /> 
+      <div id="viewCustomer"></div>     
+    </>
   );
 }
 

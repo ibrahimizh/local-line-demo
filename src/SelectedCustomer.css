@@ -1,0 +1,90 @@
+.modal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+  display: block;
+  position: absolute;
+  min-height: 450px;
+  width: 700px;
+  border-radius: 5px;
+  box-shadow: 3px 10px 10px -3px #444;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 0px 20px;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid #dadada;
+}
+
+.row1 {
+  display: flex;
+  min-height: 35px;
+}
+
+.customerNameColumn {
+  flex: 99%;
+  margin: auto;
+}
+
+.closeColumn {
+  flex: 1%;
+  margin: auto;
+}
+
+.splitColumn {
+  flex: 49%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftColumn {
+  margin-right: 1%;
+}
+
+.rightColumn {
+  margin-left: 1%;
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  color: #5976ba;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.caption {
+  width: 100%;
+  text-transform: uppercase;
+  color: #999;
+  border-bottom: 2px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.value {
+  color: #333;
+  font-weight: 900;
+  font-size: 1.15em;
+}
+
+.input {
+  width: 100%;
+  color: #999;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px;
+}
